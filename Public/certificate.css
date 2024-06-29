@@ -1,0 +1,47 @@
+.certificate{
+    text-align:center;
+    font-family:"Verdana", "Serif";
+    color:black;
+    background-image:url("../asset/images/certbackground.html");
+    padding-bottom:100px;
+    padding-top:50px;
+}
+.cert{
+    width:600px;
+}
+.small-gif{
+    width:32;
+}
+.header{
+    display:inline-flex;
+
+    justify-content:flex-end;
+    padding:20px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color:whitesmoke;
+    backface-visibility: hidden;
+}
+.header > .home{
+    align-self:flex-start;
+    flex-grow: 4
+}
+.home{
+    width: 250px;
+    font-size:30px;
+    color:white;
+}
+.navbar{
+    letter-spacing: 1.5px;
+    font-weight:bolder;
+    font-family: "Verdana";
+}
+.footer{
+    font-family:"Verdana", "Serif";
+    color:white;
+    background-color:grey;
+    clear:left;
+    clear:right;
+}
