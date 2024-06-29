@@ -39,6 +39,10 @@
     font-family: "Verdana";
 }
 .footer{
+    position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
     font-family:"Verdana", "Serif";
     color:white;
     background-color:grey;
